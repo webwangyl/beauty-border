@@ -4,12 +4,11 @@
  * @Author: WangYuLin
  * @Date: 2021-07-09 15:58:55
  * @LastEditors: WangYuLin
- * @LastEditTime: 2021-08-09 15:22:56
+ * @LastEditTime: 2021-08-09 15:42:18
 -->
 <template>
   <div id="app">
-    <clip-card>
-      111
+    <clip-card :width="350" :height="250">
     </clip-card>
   </div>
 </template>
