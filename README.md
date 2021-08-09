@@ -4,7 +4,7 @@
  * @Author: WangYuLin
  * @Date: 2021-07-09 15:58:55
  * @LastEditors: WangYuLin
- * @LastEditTime: 2021-08-09 14:37:25
+ * @LastEditTime: 2021-08-09 14:45:11
 -->
 # beauty-border
 
@@ -25,7 +25,7 @@ import { YlBorder1 } from 'beauty-border'
 ```
 
 ## Demo
-![ylborder2][https://github.com/webwangyl/beauty-border/tree/master/src/assets/ylborder2.png]
+![ylborder2](https://github.com/webwangyl/beauty-border/tree/master/src/assets/ylborder2.png)
 ``` javascript
 不指定宽高则按照父元素宽高100%展示
 <yl-border-2></yl-border-2>
@@ -38,4 +38,4 @@ export default {
 }
 ```
 
-For detailed explanation on how things work, consult the [source](https://github.com/webwangyl/beauty-border/tree/master).
+For detailed explanation on how things work, consult the [source code](https://github.com/webwangyl/beauty-border/tree/master).
