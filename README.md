@@ -4,7 +4,7 @@
  * @Author: WangYuLin
  * @Date: 2021-07-09 15:58:55
  * @LastEditors: WangYuLin
- * @LastEditTime: 2021-08-09 14:36:22
+ * @LastEditTime: 2021-08-09 14:37:25
 -->
 # beauty-border
 
@@ -38,4 +38,4 @@ export default {
 }
 ```
 
-For detailed explanation on how things work, consult the [source](http://vuejs.github.io/vue-loader).
+For detailed explanation on how things work, consult the [source](https://github.com/webwangyl/beauty-border/tree/master).
