@@ -4,17 +4,18 @@
  * @Author: WangYuLin
  * @Date: 2021-07-09 15:58:55
  * @LastEditors: WangYuLin
- * @LastEditTime: 2021-08-09 15:42:18
+ * @LastEditTime: 2021-09-26 14:47:09
 -->
 <template>
   <div id="app">
-    <clip-card :width="350" :height="250">
+    <clip-card>
+
     </clip-card>
   </div>
 </template>
 
 <script>
-import clipCard from './packages/YlBorder1/index.vue'
+import clipCard from './packages/YlBorder3/index.vue'
 export default {
   name: 'app',
   components: {
@@ -37,6 +38,7 @@ export default {
   margin-top: 60px;
   width: 50%;
   height: 600px;
+  padding: 100px;
 }
 
 h1, h2 {
