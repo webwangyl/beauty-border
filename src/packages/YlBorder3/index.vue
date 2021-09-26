@@ -4,7 +4,7 @@
  * @Author: WangYuLin
  * @Date: 2021-09-26 10:03:05
  * @LastEditors: WangYuLin
- * @LastEditTime: 2021-09-26 14:46:49
+ * @LastEditTime: 2021-09-26 15:34:25
 -->
 <template>
   <div class="border" :style="containerStyle">
@@ -65,7 +65,7 @@ export default {
     },
     type: {
       type: String,
-      default: "center"
+      default: "side"
     },
     borderColor: {
       type: String,
@@ -73,7 +73,6 @@ export default {
     },
     polyColor: {
       type: String,
-      default: "blue"
     },
     containerColor: {
       type: String,
@@ -98,7 +97,7 @@ export default {
         "--width": this.width ? this.width + "px" : "100%",
         "--height": this.height ? this.height + "px" : "100%",
         "--border-color": this.borderColor,
-        "--poly-color": this.polyColor,
+        "--poly-color": this.polyColor ? this.polyColor : this.borderColor,
         "--container-color": this.containerColor
       };
     },
@@ -133,7 +132,8 @@ $content_side-padding: var(--content-side-padding);
     }
     .split {
       width: 1px;
-      height: 100%;
+      height: calc(100% - #{$border_k_out} - #{$border_k_out});
+      margin-top: #{$border_k_out};
       background: #eee;
     }
   }
